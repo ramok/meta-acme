@@ -15,11 +15,8 @@ IMAGE_INSTALL = "\
     mtd-utils-ubifs \
     dtc \
     dtc-misc \
-    iptables \
-    usbutils \
     \
     socat \
-    wget \
     \
     screen \
     \
@@ -28,8 +25,8 @@ IMAGE_INSTALL = "\
 
 DEPENDS += "\
     packagegroup-base-usbgadget \
-    kexec-tools \
     setserial \
+    usbutils \
 "
 
 inherit core-image
